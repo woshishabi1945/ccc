@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link {color: #000000} /* 未被访问的链接 蓝色 */
+a:visited {color: #000000} /* 已被访问过的链接 蓝色 */
+a:hover {color: #000000} /* 鼠标悬浮在上的链接 蓝色 */
+a:active {color: #000000} /* 鼠标点中激活链接 蓝色 */
+.big_box{
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+}
+/* 头部信息 */
+.head{
+    width: 100%;
+    /* height: 50px; */
+    height: 100px;
+    background-color: #ffffff;
+}
+/* Logo */
+.logo{
+    max-height: 50px;
+    width: auto;
+    margin-left: 30px;
+    /* line-height: 50px; */
+    float: left;
+    margin-top: 20px;
+}
+.logo_t{
+    line-height: 100px;
+    float: left;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #0b0e51;
+}
+/* 头部X标题 */
+.head_title{
+    /* float: right; */
+    height: 70px;
+    width: max-content;
+    background-color: transparent;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    line-height: 100px;
+}
+.ul{
+    list-style: none;
+}
+.ul li{
+    display: inline;
+    float: left;
+    margin-left: 30px;
+}
+.ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: homus;
+}
+/* 注册 */
+.zc{
+    /* head是100个像素 */
+    height: 50px;
+    width: max-content;
+    background-color: #3D87DA;
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+.zc p{
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 50px;
+    color: #ffffff;
+    font-family: hmous;
+}
+/* 主要的信息 */
+.mind_box{
+    width: 100%;
+    height: 900px;
+    background-color: #ffffff;
+}
+.xin{
+    float: left;
+    width: 50%;
+    /* height: max-content; */
+    height: max-content;
+    background-color: transparent;
+}
+.pstyle{
+    font-size: 50px;
+    /* font-family: homus; */
+    font-family: weixin;
+    margin: 200px 140px 10px 180px;
+    font-weight: bold;
+}
+.ptitle{
+    margin: 0px 0px 0px 180px;
+    font-family: homus;
+    font-weight: 500;
+}
+/* 这里是按钮 */
+.button_box{
+    width: 100%;
+    height: max-content;
+    background-color: #ffffff;
+}
+.button_box_dolnw{
+    height: 50px;
+    width: max-content;
+    float: left;
+    background-color: #00BAAD;
+    border-radius: 30px;
+    margin: 80px 10px 10px 180px;
+}
+.button_box_web{
+    float: left;
+    width: max-content;
+    height: 50px;
+    background-color: #3D87DA;
+    margin: 80px 10px 10px 10px;
+    border-radius: 30px;
+}
+/* 右侧图片部分 */
+.right_box{
+    float: right;
+    width: 50%;
+    height: 900px;
+    background-color: #ffffff;
+    position: relative;
+}
+/* 软件介绍部分 */
+.jieshao_box{
+    width: 100%;
+    height: max-content;
+    background-color: #ecf1f7;
+    /* margin-top: 100%; */
+}
+.jieshao_boxp{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: homus;
+    text-align: center;
+}
+/* 顶？啊~哥哥轻点 */
+.ding{
+    width: 100%;
+    height: 20px;
+    background-color: #ecf1f7;
+}
+/* 大？ */
+.bigbad{
+    background-color: #ffffff;
+    width: 100%;
+    height: max-content;
+}
+/* 底部 */
+.db_box{
+    width: 100%;
+    height: max-content;
+    background-color: #0B1024;
+}
+.db_box_left{
+    float: left;
+    height: 250px;
+    width: 50%;
+    background-color: #0B1024;
+}
+.db_box_right{
+    float: right;
+    width: 50%;
+    height: 250px;
+    background-color: #0B1024;
+}
+.db_box_logo{
+    width: max-content;
+    height: 55px;
+    background-color: transparent;
+    margin: 60px 0 0 100px;
+}
+.db_logo{
+    max-height: 50px;
+    width: auto;
+    /* margin-left: 60px;
+    margin-top: 60px; */
+    float: left;
+}
+.db_box_logo_font{
+    float: right;
+    
+}
+.db_box_logo_p{
+    font-family: ali;
+    line-height: 55px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.db_box_js{
+    margin-left: 175px;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: homus;
+}
+.db_box_right_li{
+    color: #ffffff;
+    width: 100%;
+    height: max-content;
+    background-color: transparent;
+}
+/* .db_box_right_li_th{
+    padding: 20px;
+} */
+
+/* hr */
+.hr_box{
+    width: 100%;
+    height: 40px;
+    background-color: #0B1024;
+}
